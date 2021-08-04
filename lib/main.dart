@@ -1,5 +1,6 @@
 // import 'package:dialog_flowtter/dialog_flowtter.dart';
 import 'package:flutter/material.dart';
+import 'package:srilankan_breeds/screen/DogDetailsScreen.dart';
 import 'home_screen.dart';
 //MAh4022xs8WJjvk8N5fQDdt8Qxp1
 
@@ -18,9 +19,13 @@ class MyApp extends StatelessWidget {
       title: 'Sri lankan Breeds',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        iconTheme: IconThemeData(color: Colors.black),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),
+      routes: {
+        DogDetailsScreen.routeName: (ctx) => DogDetailsScreen(),
+      },
     );
   }
 }
