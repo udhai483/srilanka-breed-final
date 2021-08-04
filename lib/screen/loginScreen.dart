@@ -164,6 +164,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 if (_email == "test@gmail.com" &&
                                     _password == "root@123") {
                                   FocusScope.of(context).unfocus();
+
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
