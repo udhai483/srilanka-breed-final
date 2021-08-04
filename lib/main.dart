@@ -1,8 +1,7 @@
 // import 'package:dialog_flowtter/dialog_flowtter.dart';
 import 'package:flutter/material.dart';
-import 'package:srilankan_breeds/screen/loginScreen.dart';
-
-import 'constants.dart';
+import 'home_screen.dart';
+//MAh4022xs8WJjvk8N5fQDdt8Qxp1
 
 // import 'screen/app_body.dart';
 
@@ -15,15 +14,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dialog Flowtter Example',
+      debugShowCheckedModeBanner: false,
+      title: 'Sri lankan Breeds',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoginScreen(
-        title: appName,
-        debuShowCheckedModeBanner: false,
-      ),
+      home: HomeScreen(),
     );
   }
 }
@@ -32,7 +29,6 @@ class MyApp extends StatelessWidget {
 //   MyHomePage({Key? key, this.title}) : super(key: key);
 
 //   final String? title;
-
 //   @override
 //   _MyHomePageState createState() => _MyHomePageState();
 // }
