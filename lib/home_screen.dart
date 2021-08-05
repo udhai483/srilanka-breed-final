@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           title: Text(
-            "Delivering to",
+            "Search breed",
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
@@ -130,35 +130,35 @@ class _HomeScreenState extends State<HomeScreen> {
                     BuildPetCategory(
                       category: 'Category 1',
                       color: Colors.orange,
-                      name: 'name 1',
+                      name: 'Breeder',
                       url:
                           'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
                     ),
                     BuildPetCategory(
                       category: 'Category 2',
                       color: Colors.orange,
-                      name: 'name 1',
+                      name: 'Trainee',
                       url:
                           'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
                     ),
                     BuildPetCategory(
                       category: 'Category 3',
                       color: Colors.orange,
-                      name: 'name 1',
+                      name: 'Kennals',
                       url:
                           'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
                     ),
                     BuildPetCategory(
                       category: 'Category 1',
                       color: Colors.orange,
-                      name: 'name 1',
+                      name: 'KASL',
                       url:
                           'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
                     ),
                     BuildPetCategory(
                       category: 'Category 1',
                       color: Colors.orange,
-                      name: 'name 1',
+                      name: 'CKC',
                       url:
                           'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
                     ),
@@ -206,7 +206,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   left: 16,
                 ),
                 child: Text(
-                  "Popular",
+                  "Popular Breed",
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
