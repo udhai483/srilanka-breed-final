@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           title: Text(
-            "Search breed",
+            "Search breed?",
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
@@ -81,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: TextField(
                         controller: _searchController,
                         decoration: InputDecoration(
-                          hintText: 'Search',
+                          hintText: 'Searching dog?',
                           hintStyle: TextStyle(fontSize: 16),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(15),
@@ -144,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     BuildPetCategory(
                       category: 'Category 3',
                       color: Colors.orange,
-                      name: 'Kennals',
+                      name: 'Kennels',
                       url:
                           'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
                     ),
@@ -152,15 +152,14 @@ class _HomeScreenState extends State<HomeScreen> {
                       category: 'Category 1',
                       color: Colors.orange,
                       name: 'KASL',
-                      url:
-                          'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
+                      url: 'http://www.kasl.lk/breeders',
                     ),
                     BuildPetCategory(
                       category: 'Category 1',
                       color: Colors.orange,
                       name: 'CKC',
                       url:
-                          'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
+                          'http://www.ceylonkennelclub.com/index.php?view=article&id=68%3Adog..g',
                     ),
                   ],
                 ),
@@ -170,7 +169,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   left: 16,
                 ),
                 child: Text(
-                  "Center",
+                  "Kennels",
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -184,17 +183,17 @@ class _HomeScreenState extends State<HomeScreen> {
                   scrollDirection: Axis.horizontal,
                   children: [
                     PetCenter(
-                        name: "name1",
+                        name: "JROTT kennels",
                         url:
                             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-EGBJFazK-oPx-m8eIBDhZuslRMla1nc8w&usqp=CAU",
                         id: "1"),
                     PetCenter(
-                        name: "name2",
+                        name: "Ragama kennels",
                         url:
                             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-EGBJFazK-oPx-m8eIBDhZuslRMla1nc8w&usqp=CAU",
                         id: "2"),
                     PetCenter(
-                        name: "name3",
+                        name: "Best kennels Maharagama",
                         url:
                             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-EGBJFazK-oPx-m8eIBDhZuslRMla1nc8w&usqp=CAU",
                         id: "3"),
@@ -206,7 +205,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   left: 16,
                 ),
                 child: Text(
-                  "Popular Breed",
+                  "Popular Breeds",
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,

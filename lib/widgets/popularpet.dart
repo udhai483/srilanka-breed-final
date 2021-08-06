@@ -12,9 +12,9 @@ class PopularPet extends StatelessWidget {
     return ListView.builder(
       primary: false,
       shrinkWrap: true,
-      itemCount: popularpeList.length + 10,
+      itemCount: popularpeList.length,
       itemBuilder: (context, index) {
-        var currentDog = popularpeList[0];
+        var currentDog = popularpeList[index];
         return GestureDetector(
           onTap: () {
             Navigator.pushNamed(context, DogDetailsScreen.routeName,
