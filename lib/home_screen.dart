@@ -130,7 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     BuildPetCategory(
                       category: 'Category 1',
                       color: Colors.orange,
-                      name: 'Breeder',
+                      name: 'Breeders',
                       url:
                           'https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg',
                     ),
